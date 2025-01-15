@@ -1,3 +1,5 @@
+#pragma once
+
 enum States
 {
     START,
@@ -10,9 +12,9 @@ enum States
     COMP_TAKES_CARD,
     PLAYER_BORROWS_2,
     COMP_BORROWS_1,
-    PLAYER_ASKS_VALUE,
-    PLAYER_TAKES_VALUE,
-    COMP_ASKS_VALUE,
-    COMP_TAKES_VALUE,
+    PLAYER_ASKS_SET,
+    PLAYER_TAKES_SET,
+    COMP_ASKS_SET,
+    COMP_TAKES_SET,
     FINISH
 };
