@@ -1,20 +1,20 @@
 #pragma once
 
+#include <iostream>
+
 enum States
 {
     START,
     DIAL,
     PLAYER_ASKS_CARD,
-    PLAYER_TAKES_CARD,
     COMP_BORROWS_2,
     PLAYER_BORROWS_1,
     COMP_ASKS_CARD,
-    COMP_TAKES_CARD,
     PLAYER_BORROWS_2,
     COMP_BORROWS_1,
     PLAYER_ASKS_SET,
-    PLAYER_TAKES_SET,
     COMP_ASKS_SET,
-    COMP_TAKES_SET,
     FINISH
 };
+
+std::ostream& operator << (std::ostream& o, States state);
