@@ -9,3 +9,6 @@ extern std::vector<Card> compHand;
 extern std::vector<CardValue> playerSets;
 extern std::vector<CardValue> compSets;
 
+extern bool debug;
+extern CardValue playerAskedValue;
+extern CardValue compAskedValue;

@@ -1,3 +1,17 @@
+/*
+*   Solution to course project # 8
+*   Introduction to programming course
+*   Faculty of Mathematics and Informatics of Sofia University
+*   Winter semester 2024/2025
+*  
+*   @autor Teodora Mineva 
+*   @idnumber 2MI0600537 
+*   @compiler clang++ (MacBook) 
+*
+*   < All of the different card values and card colors and creating each card from the deck >
+*  
+*/
+
 #include "Card.h"
 
 std::ostream& operator << (std::ostream& o, Colour colour)

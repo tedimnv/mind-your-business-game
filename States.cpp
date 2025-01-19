@@ -1,3 +1,17 @@
+/*
+*   Solution to course project # 8
+*   Introduction to programming course
+*   Faculty of Mathematics and Informatics of Sofia University
+*   Winter semester 2024/2025
+*  
+*   @autor Teodora Mineva 
+*   @idnumber 2MI0600537 
+*   @compiler clang++ (MacBook) 
+*
+*   < The different states of the game >
+*  
+*/
+
 #include "States.h"
 
 std::ostream& operator << (std::ostream& o, States state)
